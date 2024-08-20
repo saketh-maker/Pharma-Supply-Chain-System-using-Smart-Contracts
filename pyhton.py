@@ -1,7 +1,7 @@
 class PharmaSupplyChain:
     def __init__(self):
-        self.products = {}  # Stores product details
-        self.history = {}  # Stores product transfer history
+        self.products = {}  
+        self.history = {}  
 
     def register_product(self, product_id, name, manufacturer):
         """Registers a new product."""
@@ -50,9 +50,7 @@ class PharmaSupplyChain:
             raise ValueError(f"Product ID {product_id} does not exist.")
         return self.history[product_id]
 
-# Example usage with user input
 if __name__ == "__main__":
-    # Initialize the system
     system = PharmaSupplyChain()
 
     while True:
