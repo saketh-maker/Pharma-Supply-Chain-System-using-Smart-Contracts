@@ -1,4 +1,7 @@
 # Pharma-Supply-Chain-System-using-Smart-Contracts/QUESTION 2
+
+"Please note that the outputs of the code are located in the output folder."
+
 Explanation
 Main Menu:
 
